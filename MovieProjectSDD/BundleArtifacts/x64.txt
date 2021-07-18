@@ -1,0 +1,6 @@
+MainPackage=C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MovieProjectSDD_1.0.6.0_x64_Debug.appx
+SymbolPackage=C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\obj\x64\Debug\Symbols\MovieProjectSDD_1.0.6.0_x64_Debug.appxsym
+ResourcePack=C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MovieProjectSDD_1.0.6.0_scale-100.appx
+ResourcePack=C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MovieProjectSDD_1.0.6.0_scale-125.appx
+ResourcePack=C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MovieProjectSDD_1.0.6.0_scale-150.appx
+ResourcePack=C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MovieProjectSDD_1.0.6.0_scale-400.appx

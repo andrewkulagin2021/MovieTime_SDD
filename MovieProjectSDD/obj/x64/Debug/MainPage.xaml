@@ -1,0 +1,192 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="MovieProjectSDD.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MovieProjectSDD"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls" xmlns:Windows10version1809="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 7)"
+    mc:Ignorable="d">
+    <Page.Resources>
+
+
+        <DataTemplate x:Key="GroupMoviesTemplate"
+                                                    >
+            <Grid x:ConnectionId='3'>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="6" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+                <TextBlock x:ConnectionId='4' Foreground="White"
+                           FontSize="24"
+                           Margin="0 0 0 6"
+                                                
+                           Grid.Column="1"
+                           Grid.Row="0"/>
+
+                <GridView x:ConnectionId='5' Grid.Row="1" Grid.Column="1"                              >
+                    <GridView.ItemTemplate>
+                        <DataTemplate x:Name="MovieTemplate"
+                                                              >
+                            <Button x:ConnectionId='7'                       
+                                                                 
+                                            BorderThickness="1"
+                                            Padding="0"
+                                            CornerRadius="0" Background="{x:Null}" Foreground="LightGray" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" >
+                                <StackPanel Spacing="6">
+                                    <Image x:ConnectionId='8'                                                                                      
+                                               Stretch="Fill"
+                                               HorizontalAlignment="Stretch"
+                                               VerticalAlignment="Top"
+                                               Width="220"
+                                               Height="326"
+                                                                                      >
+                                    </Image>
+                                    <TextBlock TextWrapping="WrapWholeWords">
+                                          <Run x:ConnectionId='11'                           />                                       
+                                          <Run x:ConnectionId='12'                            />                                       
+                                    </TextBlock >
+                                    <TextBlock TextWrapping="WrapWholeWords">
+                                            <Run Text="Rating IMDB:"/>
+                                            <Run x:ConnectionId='9' FontWeight="Bold"                                        />
+                                            <Run Text="("/><Run x:ConnectionId='10'                                       /><Run Text=")"/>
+                                    </TextBlock >
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+            </Grid>
+        </DataTemplate>
+       
+    </Page.Resources>
+    <Page.Background>
+        <AcrylicBrush BackgroundSource="HostBackdrop"
+                      TintColor="{ThemeResource SystemColorBackgroundColor}"
+                      TintOpacity="0.9"
+                      FallbackColor="{ThemeResource ApplicationPageBackgroundThemeBrush}" />
+    </Page.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="54"/>
+            <RowDefinition Height="44"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid x:ConnectionId='13' x:Name="TitleSearchGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="54"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="54"/>
+            </Grid.ColumnDefinitions>
+            <AppBarButton x:ConnectionId='21' x:Name="BackButton" Height="{StaticResource AppBarThemeCompactHeight}" Width="42" IsCompact="True" Icon="Back" Grid.Column ="0" VerticalAlignment="Center" HorizontalAlignment="Center"                   />
+            <TextBlock Text="Latest Movies and TV series for you" Grid.Column="1" FontSize="24" VerticalAlignment="Center"></TextBlock>
+            <AutoSuggestBox x:ConnectionId='22' PlaceholderText="Search Movie" QueryIcon="Find" Width="360" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"                                                                                             AutomationProperties.Name="Basic AutoSuggestBox"/>
+            <CommandBar x:ConnectionId='23' x:Name="SettingsCommandBar" Grid.Column ="3"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="{StaticResource AppBarThemeCompactHeight}" >                
+                    <CommandBar.SecondaryCommands>
+                    <AppBarButton x:ConnectionId='24' Icon="Setting" Label="Settings"                         />
+                    <AppBarButton x:ConnectionId='25' Icon="Save" Label="Save Settings File"                          />
+                    <AppBarButton x:ConnectionId='26' Icon="OpenFile" Label="Read Settings File"                     />
+                    <AppBarButton x:ConnectionId='27' Icon="Help" Label="User Help"                               >
+                        <Popup x:ConnectionId='28' HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="StandardPopup" IsLightDismissEnabled="True">
+                            <Border BorderBrush="{StaticResource ApplicationForegroundThemeBrush}" 
+                                    Background="{StaticResource ApplicationPageBackgroundThemeBrush}"
+                                    BorderThickness="1" Width="auto" Height="auto">
+                                <Grid>
+                                  
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition Height="80"/>
+                                        <RowDefinition Height="120"/>                                  
+                                    </Grid.RowDefinitions>
+                                    <StackPanel Grid.Row="0"  HorizontalAlignment="Center" VerticalAlignment="Center" Padding="16">
+                                        <TextBlock Text="User Help" FontSize="24.667" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                                        <TextBlock Text="1 - Click on a movie to go to its movie page." FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                        <TextBlock Text="2 - Use the Sort Menu to organise the Movie Groups." FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                        <TextBlock Text="3 - Use the  Filter menu to choose what kinds of movies are displayed." FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                        <TextBlock Text="4 - The Settings menu lets you choose what adapters the movies are taken from, and displays the list of movies by name." FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                        <TextBlock Text="5 - You can Save a Settings file as a JSON, and then load it to restore the Settings." FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                        <TextBlock Text="6 - The Movie Page contains further information on movies, and the Movie Trailer." FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>                                      
+                                    </StackPanel>
+                                    <Button x:ConnectionId='29' Grid.Row="1" Width="280"  Content="Play Video Tutorial on YouTube"                      HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    <Button x:ConnectionId='30' Grid.Row="2" Content="Close Help"                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Grid>                             
+                            </Border>
+                        </Popup>
+                    </AppBarButton>
+                </CommandBar.SecondaryCommands>
+              
+            </CommandBar>
+        </Grid>
+        
+        <Grid x:ConnectionId='14' x:Name="sorting" Grid.Row="1" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="42"/>
+                <ColumnDefinition Width="280"/>
+                <ColumnDefinition Width="280"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Spacing="6">
+                <TextBlock Text="Sort by:" VerticalAlignment="Center"/>
+                <ComboBox x:ConnectionId='20' x:Name="Sort_combo"  Width="200" SelectedIndex="0"                                             >
+                    <x:String>Genre</x:String>
+                    <x:String>Date Added</x:String>
+                    <x:String>Name</x:String>
+                    <x:String>Platform</x:String>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="2" Spacing="6">
+                <TextBlock Text="Filter:" VerticalAlignment="Center"/>
+                <ComboBox x:ConnectionId='19' x:Name="Filter_combo" Width="200" SelectedIndex="0"                                             >
+                    <x:String>Show All</x:String>
+                    <x:String>Rating > 6</x:String>
+                    <x:String>Rating > 7</x:String>
+                    <x:String>Rating > 8</x:String>
+                    <x:String>Content Rating PG</x:String>
+                    <x:String>Content Rating M</x:String>
+                    <x:String>Content Rating R</x:String>
+                    <x:String>Favourite Movies</x:String>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+
+        <ScrollViewer x:ConnectionId='15' x:Name="scrollViewer" 
+                      VerticalScrollBarVisibility="Auto"
+                      VerticalScrollMode="Enabled"
+                      HorizontalScrollMode="Disabled"
+                      Grid.Row="2">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <ListView x:ConnectionId='18' Grid.Row="1"                                                  ItemTemplate="{StaticResource GroupMoviesTemplate}">
+                   
+                </ListView>
+            </Grid>
+        </ScrollViewer>
+        <ContentDialog x:ConnectionId='16' x:Name="MediaPlayerDialog"
+                                                          
+                       CloseButtonText="Close">
+            <StackPanel  >
+                <TextBlock Text="User Help Video" Margin="0 0 0 20" />
+                <MediaPlayerElement x:ConnectionId='17' x:Name="TutorialPlayer"
+                                    AreTransportControlsEnabled="True"
+                                    MinWidth="800"                                  
+                                    HorizontalAlignment="Stretch"
+                                    Stretch="UniformToFill"
+                                    AutoPlay="True" />
+            </StackPanel>
+        </ContentDialog>
+    </Grid>
+</Page>
+

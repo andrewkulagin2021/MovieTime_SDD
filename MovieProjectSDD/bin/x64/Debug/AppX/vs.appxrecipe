@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ML</Machine>
+    <WindowsUser>zelen</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>f3e4cda9-28a6-4c61-be5e-71e16eca0814</PackageIdentityName>
+    <PackageIdentityPublisher>CN=zelen</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2A6BEC46AD55465D5D5CC353C150F71A5D38002E5EE48EEA7AF16F157F267B9E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f3e4cda9-28a6-4c61-be5e-71e16eca0814_1.0.4.0_x64__vyc5ch7rm6nty</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f3e4cda9-28a6-4c61-be5e-71e16eca0814_vyc5ch7rm6nty!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f3e4cda9-28a6-4c61-be5e-71e16eca0814</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=zelen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.4.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-18T07:25:29.091</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MovieProjectSDD.exe">
+      <PackagePath>entrypoint\MovieProjectSDD.exe</PackagePath>
+      <Modified>2021-07-18T07:25:28.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\.nuget\packages\htmlagilitypack\1.11.29\lib\uap10.0\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+      <Modified>2020-12-16T05:07:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T13:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T09:17:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T08:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Group 3.scale-100.png">
+      <PackagePath>Assets\Group 3.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:21:10.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Group 3.scale-125.png">
+      <PackagePath>Assets\Group 3.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:21:10.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Group 3.scale-150.png">
+      <PackagePath>Assets\Group 3.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:21:10.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Group 3.scale-200.png">
+      <PackagePath>Assets\Group 3.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:21:10.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Group 3.scale-400.png">
+      <PackagePath>Assets\Group 3.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:21:10.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:33.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-16_altform-lightunplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-lightunplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-24_altform-lightunplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-lightunplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-256_altform-lightunplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-lightunplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-32_altform-lightunplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-lightunplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-48_altform-lightunplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-lightunplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:33.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:33.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:33.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:33.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:33.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-11-15T00:20:14.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:31.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-07-11T01:36:32.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-01-02T02:07:12.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MovieProjectSDD.xr.xml">
+      <PackagePath>MovieProjectSDD.xr.xml</PackagePath>
+      <Modified>2021-07-18T07:20:59.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-07-18T07:24:57.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-07-18T07:25:28.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\SettingsPage.xbf">
+      <PackagePath>SettingsPage.xbf</PackagePath>
+      <Modified>2021-07-18T07:17:55.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\MoviePage.xbf">
+      <PackagePath>MoviePage.xbf</PackagePath>
+      <Modified>2021-07-18T07:17:55.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2019-03-18T09:50:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T07:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2020-12-02T22:46:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-07-18T07:25:28.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zelen\source\repos\MovieProjectSDD\MovieProjectSDD\bin\x64\Debug\Core\MovieProjectSDD.exe">
+      <PackagePath>MovieProjectSDD.exe</PackagePath>
+      <Modified>2021-07-18T07:25:29.089</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\zelen\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
